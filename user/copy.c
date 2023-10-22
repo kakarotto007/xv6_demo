@@ -1,5 +1,5 @@
-#include<kernel/types.h>
-#include<user/user.h>
+#include "kernel/types.h"
+#include "user/user.h"
 
 int main(){
   char buf[64];
@@ -12,7 +12,6 @@ int main(){
     {
         break;
     }
-
     write(1,buf,n);
     exit(0);
   }
