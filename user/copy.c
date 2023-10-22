@@ -14,7 +14,7 @@ int main(){
     }
 
     write(1,buf,n);
-    
+    exit(0);
   }
   
 }
